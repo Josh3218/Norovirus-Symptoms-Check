@@ -1,0 +1,48 @@
+/* Basic styling for the page */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f4f4f9;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.question {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+input[type="text"] {
+  padding: 5px;
+  font-size: 16px;
+  width: 150px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+.image{
+  width: 50px;
+  height: 100px;
+  right: 100%;
+}

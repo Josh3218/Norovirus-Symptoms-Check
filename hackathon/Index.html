@@ -1,0 +1,63 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Norovirus Symptoms Check</title>
+    <link rel="stylesheet" href="index.css">
+   
+</head>
+<body>
+  <h1>InstaDiagnosis</h1>
+
+    <h1>Norovirus Symptoms Check</h1>
+    <p>Please answer the following questions by typing "True" or "False" in the text boxes:</p>
+
+    <!-- user input -->
+    <div class="question">
+        <label for="vomited">Have you vomited in the past 48 hours?</label><br>
+        <input type="text" id="vomited" placeholder="True/False">
+    </div>
+    
+    <div class="question">
+        <label for="diarrhea">Have you had diarrhea in the past 48 hours?</label><br>
+        <input type="text" id="diarrhea" placeholder="True/False">
+    <div class="question">
+        <label for="cramps">Have you had a stomach cramp in the last 48 hours?</label><br>
+        <input type="text" id="cramps" placeholder="True/False">
+    </div>
+
+    <div class="question">
+        <label for="headache">Have you had a headache in the last 48 hours?</label><br>
+        <input type="text" id="headache" placeholder="True/False">
+    </div>
+
+    <div class="question">
+        <label for="bodyache">Have you had a body ache in the last 48 hours?</label><br>
+        <input type="text" id="bodyache" placeholder="True/False">
+    </div>
+
+    <div class="question">
+        <label for="fever">Have you had a fever for the past 48 hours?</label><br>
+        <input type="text" id="fever" placeholder="True/False">
+    </div>
+
+    <div class="question">
+        <label for="contacted">Have you been in contact with someone who has the Norovirus in the past 48 hours?</label><br>
+        <input type="text" id="contacted" placeholder="True/False">
+    </div>
+
+    <div class="question">
+        <label for="nausea">Have you been feeling Nausea in the past 48 hours?</label><br>
+        <input type="text" id="nausea" placeholder="True/False">
+    </div>
+
+
+    <button type="button" onclick="submitForm()">Submit Answers</button>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
